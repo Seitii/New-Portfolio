@@ -23,7 +23,7 @@ const SkillDataProvider = ({src, width, height, index}: Props) => {
     visible: {opacity: 1}
   }
 
-  const animationDelay = 0.3
+  const animationDelay = 0.3 // atraso de animação, imagem após a outra. 
     return (
     <motion.div
         ref = {ref} 
@@ -31,7 +31,7 @@ const SkillDataProvider = ({src, width, height, index}: Props) => {
         variants={imageVariants}
         animate={inView ? "visible" : "hidden"}
         custom = {index}
-        transition={{delay: index * animationDelay}}
+        transition={{delay: index * animationDelay}} // transição de indice
     >
         <Image
         src={src}

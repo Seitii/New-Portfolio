@@ -58,7 +58,7 @@ const HeroContent = () => {
             }}
             src="/hugo.png"
             className="w-auto h-auto object-contain"
-            style={{ borderRadius: '50%' }}
+            style={{ borderRadius: '50%', height:650}}
             />
             {/* <Image
             src="/mainIconsdark.svg"

@@ -1,0 +1,19 @@
+.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .timeline-event {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+  
+  .event-date {
+    font-weight: bold;
+  }
+  
+  /* Adicione mais estilos conforme necessário */
+  
