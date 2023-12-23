@@ -27,7 +27,7 @@ const HeroContent = () => {
         >
             <span>
             Hi! I'm
-            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"> Hugo Odajima </span>
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"> {""}Hugo Odajima{""} </span>
             Machine Learning Engineer
             </span>
         </motion.div>
