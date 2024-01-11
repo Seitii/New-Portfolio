@@ -1,9 +1,9 @@
 "use client"
 
-import React from 'react'
-import {motion} from 'framer-motion'
-import { useInView } from 'react-intersection-observer'
-import Image from 'next/image';
+import React from "react"
+import {motion} from "framer-motion"
+import { useInView } from "react-intersection-observer"
+import Image from "next/image";
 
 interface Props{
     src: string;
@@ -37,7 +37,7 @@ const SkillDataProvider = ({src, width, height, index}: Props) => {
         src={src}
         width={width}
         height={height}
-        alt='skill image' />
+        alt="skill image" />
     </motion.div>
   )
 }
