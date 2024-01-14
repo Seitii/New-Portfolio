@@ -3,6 +3,7 @@ import React from 'react'
 import {motion} from 'framer-motion'
 import { slideInFromLeft, slideInFromRight, slideInFromTop } from '@/utils/motion'
 import { SparklesIcon } from '@heroicons/react/24/solid'
+import SectionHeading from './section-heading'
 
 function SkillText() {
   return (
@@ -14,12 +15,7 @@ function SkillText() {
             <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
             <h1 className='Welcome-text text-[13px]'>Machine learning Portfolio</h1>   
         </motion.div>
-        <motion.div
-        variants={slideInFromLeft(0.5)}
-        className='text-[30px] text-white font-medium text-center mb-[15px]'  
-        >
-            Skills
-        </motion.div>
+        <SectionHeading>Skills</SectionHeading>
         <motion.div
         variants={slideInFromRight(0.5)}
         className='cursive text-[20px] text-gray-200 mb-10 mt-[10px] text-center'

@@ -39,10 +39,15 @@ const Navbar = () => {
 
         <div className="flex flex-row gap-5">
             <a href="https://github.com/Seitii" target="_blank" rel="noopener noreferrer">
-              <FaGithub size={30} style={{ width: '30px', height: '30px', color: 'white' }} />
+            <FaGithub 
+                size={30} 
+                className="text-white transition outline-none focus:scale-110 hover:scale-110 active:scale-105" 
+                style={{ width: '30px', height: '30px' }}/>
             </a>
             <a href="https://www.linkedin.com/in/hugo-odajima/" target="_blank" rel="noopener noreferrer">
-              <FaLinkedin size={30} style={{ width: '30px', height: '30px', color: 'white' }} />
+              <FaLinkedin size={30}                 
+              className="text-white transition outline-none focus:scale-110 hover:scale-110 active:scale-105" 
+              style={{ width: '30px', height: '30px', color: 'white' }} />
             </a>    
         </div>
       </div>
