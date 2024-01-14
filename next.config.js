@@ -3,7 +3,6 @@
  */
 const nextConfig = {
     saída: 'export',
-    distDir: 'dist',
     images:{
       unoptimized: true,
     },
