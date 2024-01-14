@@ -2,7 +2,7 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
+import portfolioAntigo from "@/public/portfolioantigo.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
@@ -35,38 +35,38 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Graduated Computer Science",
+    location: "Marília, SP",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 4 years of studying in Eurípides University Center of Marília.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2020 - 2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Senior information technology analyst",
+    location: "Marília, SP",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I worked as a information technology analyst for 1 year. Upskilled to the hardware maintenance, software administration, Specialized in ERP systems, network administration and response to cyber threats, and programming in Python and Java.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+    date: "2022 - 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Ecommerce Analyst",
+    location: "Marília, SP",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "I'm now a working as a Ecommerce Analyst. Regularly update website content, monitor inventory, analyze performance data, oversee order processing, and identify opportunities for improvement. My stack includes Python, JavaScript, TypeScript and Aws. I'm open to full-time opportunities.",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2023 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Portfolio Antigo",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "My first portfolio, with the help of Rockeseat. In the future I still intend to change again.",
+    tags: ["Html", "Css", "JavaScript",],
+    imageUrl: portfolioAntigo,
   },
   {
     title: "rmtDev",

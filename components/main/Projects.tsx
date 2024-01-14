@@ -6,7 +6,8 @@ import Project from './project';
 
 export default function Projects() {
   return (
-    <section>
+    <section id='projects'>
+      
       <SectionHeading>My Projects</SectionHeading>
       <div className='flex flex-col items-center justify-center'>
         {projectsData.map((project, index) => (

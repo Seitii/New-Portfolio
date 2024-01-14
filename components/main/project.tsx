@@ -1,11 +1,12 @@
 "use client";
 
-import { useRef } from "react";
-import { projectsData } from "@/constants/data";
-import Image from "next/image";
-import { motion, useScroll, useTransform } from "framer-motion";
+import { useRef } from "react"; // Hook do React para criar referências a elementos DOM
+import { projectsData } from "@/constants/data"; // Importa os dados do projeto de um local específico
+import Image from "next/image"; // Componente de imagem otimizado do Next.js
+import { motion, useScroll, useTransform } from "framer-motion"; // Importa funções do Framer Motion para animações
 
-type ProjectProps = (typeof projectsData)[number];
+
+type ProjectProps = (typeof projectsData)[number]; // Define um tipo TypeScript para as propriedades do projeto
 
 export default function Project({
   title,
@@ -14,6 +15,9 @@ export default function Project({
   imageUrl,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
+  // Cria animações com base na posição de rolagem
+    // Animações baseadas na posição de rolagem
+
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["0 1", "1.33 1"],
@@ -53,17 +57,17 @@ export default function Project({
           alt="Project I worked on"
           quality={95}
           className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
-        transition 
-        group-hover:scale-[1.04]
-        group-hover:-translate-x-3
-        group-hover:translate-y-3
-        group-hover:-rotate-2
+                transition 
+                group-hover:scale-[1.04]
+                group-hover:-translate-x-3
+                group-hover:translate-y-3
+                group-hover:-rotate-2
 
-        group-even:group-hover:translate-x-3
-        group-even:group-hover:translate-y-3
-        group-even:group-hover:rotate-2
+                group-even:group-hover:translate-x-3
+                group-even:group-hover:translate-y-3
+                group-even:group-hover:rotate-2
 
-        group-even:right-[initial] group-even:-left-40"
+                group-even:right-[initial] group-even:-left-40"
         />
       </section>
     </motion.div>

@@ -66,4 +66,9 @@
 
 html {
   scroll-behavior: smooth;
+  --line-color: #e5e7eb;
+}
+.is-hidden {
+  visibility: visible !important;
+  display: block !important; /* ou outro display que você necessite */
 }
