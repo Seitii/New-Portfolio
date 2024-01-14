@@ -60,12 +60,6 @@ const HeroContent = () => {
             className="w-auto h-auto object-contain"
             style={{ borderRadius: '50%', height:650}}
             />
-            {/* <Image
-            src="/mainIconsdark.svg"
-            alt="work icons"
-            height={650}
-            width={650}
-            /> */}
         </motion.div>
     </motion.div>
   )
